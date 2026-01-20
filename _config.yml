@@ -85,10 +85,6 @@ archive_generator:
   per_page: 20
   yearly: true
   monthly: true
-archive_generator:
-  per_page: 20
-  yearly: true
-  monthly: true
 tag_generator:
   per_page: 20
 
@@ -103,7 +99,7 @@ deploy:
   type: git
   repo: https://github.com/your-username/anzhiyu-blog.git
   branch: main
-  message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 # Sitemap
 sitemap:

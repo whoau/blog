@@ -43,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/your-username/anzhiyu-blog/issues"
   },
-  "homepage": "https://your-username.github.io/anzhiyu-blog"
+  "homepage": "https://your-username.github.io/anzhiyu-blog",
+  "hexo": {
+    "version": "5.4.2"
+  }
 }
