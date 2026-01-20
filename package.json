@@ -1,32 +1,47 @@
 {
-  "name": "hexo-theme-anzhiyu",
-  "version": "1.7.1",
-  "description": "A Simple and Card UI Design theme for Hexo",
-  "main": "package.json",
+  "name": "anzhiyu-blog",
+  "version": "1.0.0",
+  "description": "A personal blog powered by Hexo and AnZhiYu theme",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server",
+    "generate": "hexo generate",
+    "new": "hexo new"
   },
   "keywords": [
     "hexo",
-    "theme",
     "anzhiyu",
-    "Card UI Design",
-    "AnZhiYu",
-    "hexo-theme-anzhiyu"
+    "blog",
+    "static-site"
   ],
+  "author": "Your Name",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "hexo": "^5.4.2",
+    "hexo-cli": "^4.3.1",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-wordcount": "^6.0.1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git"
+    "url": "https://github.com/your-username/anzhiyu-blog.git"
   },
   "bugs": {
-    "url": "https://github.com/anzhiyu-c/hexo-theme-anzhiyu/issues",
-    "email": "me@anheyu.com"
+    "url": "https://github.com/your-username/anzhiyu-blog/issues"
   },
-  "dependencies": {
-    "hexo-renderer-stylus": "^3.0.0",
-    "hexo-renderer-pug": "^3.0.0"
-  },
-  "homepage": "https://hexo.anheyu.com/",
-  "author": "anzhiyu <me@anheyu.com>",
-  "license": "GPL-3.0"
+  "homepage": "https://your-username.github.io/anzhiyu-blog"
 }
